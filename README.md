@@ -12,6 +12,8 @@ This repository was created using Zabbix 3.4.9 and [Postal](https://github.com/a
 - Get processes (web, fast, workers, cron, smtp and requeuer) status, as informed in `postal status` command
 - Receive an alert if any process status is different from `Running`.
 
+Note that this initial release is configured to have 1 web, fast, cron, smtp and requeuer processes, and 5 workers. If you want to monitor a different number of processes, you'll need to manually change the configuration while the template doesn't have autodiscovery rules.
+
 ### Features planned
 - Get a process number of respawns, to send alerts if it's greater than zero.
 - Process respawn trigger.
