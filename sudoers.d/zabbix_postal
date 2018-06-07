@@ -1,0 +1,3 @@
+Cmnd_Alias ZABB_POSTAL = /opt/postal/app/bin/postal, /etc/zabbix/lib/postal-zabbix/postal-zabbix.sh
+Defaults:zabbix !requiretty
+zabbix ALL=NOPASSWD: ZABB_POSTAL
