@@ -1,5 +1,7 @@
 # Zabbix monitoring of aTech Media Postal processes
 
+![CI](https://github.com/appsinet/postal-zabbix/workflows/CI/badge.svg)
+
 This project is composed by a shell script, a Zabbix template and a sudoers configuration file:
 - The shell script reads values from `postal status` command and sends it to the Zabbix Server via Agent.
 - The template has items that receives those values and activates triggers.
